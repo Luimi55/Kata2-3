@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E253D0C3266D61EE0073AAB3 /* romanSum3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253D0C2266D61EE0073AAB3 /* romanSum3App.swift */; };
+		E253D0C5266D61EE0073AAB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253D0C4266D61EE0073AAB3 /* ContentView.swift */; };
+		E253D0C7266D61F10073AAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E253D0C6266D61F10073AAB3 /* Assets.xcassets */; };
+		E253D0CA266D61F10073AAB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E253D0C9266D61F10073AAB3 /* Preview Assets.xcassets */; };
+		E253D0D5266D61F10073AAB3 /* romanSum3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253D0D4266D61F10073AAB3 /* romanSum3Tests.swift */; };
+		E253D0E0266D61F10073AAB3 /* romanSum3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253D0DF266D61F10073AAB3 /* romanSum3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E253D0D1266D61F10073AAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E253D0B7266D61EE0073AAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E253D0BE266D61EE0073AAB3;
+			remoteInfo = romanSum3;
+		};
+		E253D0DC266D61F10073AAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E253D0B7266D61EE0073AAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E253D0BE266D61EE0073AAB3;
+			remoteInfo = romanSum3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E253D0BF266D61EE0073AAB3 /* romanSum3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = romanSum3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E253D0C2266D61EE0073AAB3 /* romanSum3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = romanSum3App.swift; sourceTree = "<group>"; };
+		E253D0C4266D61EE0073AAB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E253D0C6266D61F10073AAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E253D0C9266D61F10073AAB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E253D0CB266D61F10073AAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E253D0D0266D61F10073AAB3 /* romanSum3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = romanSum3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E253D0D4266D61F10073AAB3 /* romanSum3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = romanSum3Tests.swift; sourceTree = "<group>"; };
+		E253D0D6266D61F10073AAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E253D0DB266D61F10073AAB3 /* romanSum3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = romanSum3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E253D0DF266D61F10073AAB3 /* romanSum3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = romanSum3UITests.swift; sourceTree = "<group>"; };
+		E253D0E1266D61F10073AAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E253D0BC266D61EE0073AAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E253D0CD266D61F10073AAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E253D0D8266D61F10073AAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E253D0B6266D61EE0073AAB3 = {
+			isa = PBXGroup;
+			children = (
+				E253D0C1266D61EE0073AAB3 /* romanSum3 */,
+				E253D0D3266D61F10073AAB3 /* romanSum3Tests */,
+				E253D0DE266D61F10073AAB3 /* romanSum3UITests */,
+				E253D0C0266D61EE0073AAB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E253D0C0266D61EE0073AAB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E253D0BF266D61EE0073AAB3 /* romanSum3.app */,
+				E253D0D0266D61F10073AAB3 /* romanSum3Tests.xctest */,
+				E253D0DB266D61F10073AAB3 /* romanSum3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E253D0C1266D61EE0073AAB3 /* romanSum3 */ = {
+			isa = PBXGroup;
+			children = (
+				E253D0C2266D61EE0073AAB3 /* romanSum3App.swift */,
+				E253D0C4266D61EE0073AAB3 /* ContentView.swift */,
+				E253D0C6266D61F10073AAB3 /* Assets.xcassets */,
+				E253D0CB266D61F10073AAB3 /* Info.plist */,
+				E253D0C8266D61F10073AAB3 /* Preview Content */,
+			);
+			path = romanSum3;
+			sourceTree = "<group>";
+		};
+		E253D0C8266D61F10073AAB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E253D0C9266D61F10073AAB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E253D0D3266D61F10073AAB3 /* romanSum3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E253D0D4266D61F10073AAB3 /* romanSum3Tests.swift */,
+				E253D0D6266D61F10073AAB3 /* Info.plist */,
+			);
+			path = romanSum3Tests;
+			sourceTree = "<group>";
+		};
+		E253D0DE266D61F10073AAB3 /* romanSum3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E253D0DF266D61F10073AAB3 /* romanSum3UITests.swift */,
+				E253D0E1266D61F10073AAB3 /* Info.plist */,
+			);
+			path = romanSum3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E253D0BE266D61EE0073AAB3 /* romanSum3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E253D0E4266D61F10073AAB3 /* Build configuration list for PBXNativeTarget "romanSum3" */;
+			buildPhases = (
+				E253D0BB266D61EE0073AAB3 /* Sources */,
+				E253D0BC266D61EE0073AAB3 /* Frameworks */,
+				E253D0BD266D61EE0073AAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = romanSum3;
+			productName = romanSum3;
+			productReference = E253D0BF266D61EE0073AAB3 /* romanSum3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E253D0CF266D61F10073AAB3 /* romanSum3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E253D0E7266D61F10073AAB3 /* Build configuration list for PBXNativeTarget "romanSum3Tests" */;
+			buildPhases = (
+				E253D0CC266D61F10073AAB3 /* Sources */,
+				E253D0CD266D61F10073AAB3 /* Frameworks */,
+				E253D0CE266D61F10073AAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E253D0D2266D61F10073AAB3 /* PBXTargetDependency */,
+			);
+			name = romanSum3Tests;
+			productName = romanSum3Tests;
+			productReference = E253D0D0266D61F10073AAB3 /* romanSum3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E253D0DA266D61F10073AAB3 /* romanSum3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E253D0EA266D61F10073AAB3 /* Build configuration list for PBXNativeTarget "romanSum3UITests" */;
+			buildPhases = (
+				E253D0D7266D61F10073AAB3 /* Sources */,
+				E253D0D8266D61F10073AAB3 /* Frameworks */,
+				E253D0D9266D61F10073AAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E253D0DD266D61F10073AAB3 /* PBXTargetDependency */,
+			);
+			name = romanSum3UITests;
+			productName = romanSum3UITests;
+			productReference = E253D0DB266D61F10073AAB3 /* romanSum3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E253D0B7266D61EE0073AAB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E253D0BE266D61EE0073AAB3 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E253D0CF266D61F10073AAB3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E253D0BE266D61EE0073AAB3;
+					};
+					E253D0DA266D61F10073AAB3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E253D0BE266D61EE0073AAB3;
+					};
+				};
+			};
+			buildConfigurationList = E253D0BA266D61EE0073AAB3 /* Build configuration list for PBXProject "romanSum3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E253D0B6266D61EE0073AAB3;
+			productRefGroup = E253D0C0266D61EE0073AAB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E253D0BE266D61EE0073AAB3 /* romanSum3 */,
+				E253D0CF266D61F10073AAB3 /* romanSum3Tests */,
+				E253D0DA266D61F10073AAB3 /* romanSum3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E253D0BD266D61EE0073AAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E253D0CA266D61F10073AAB3 /* Preview Assets.xcassets in Resources */,
+				E253D0C7266D61F10073AAB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E253D0CE266D61F10073AAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E253D0D9266D61F10073AAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E253D0BB266D61EE0073AAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E253D0C5266D61EE0073AAB3 /* ContentView.swift in Sources */,
+				E253D0C3266D61EE0073AAB3 /* romanSum3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E253D0CC266D61F10073AAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E253D0D5266D61F10073AAB3 /* romanSum3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E253D0D7266D61F10073AAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E253D0E0266D61F10073AAB3 /* romanSum3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E253D0D2266D61F10073AAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E253D0BE266D61EE0073AAB3 /* romanSum3 */;
+			targetProxy = E253D0D1266D61F10073AAB3 /* PBXContainerItemProxy */;
+		};
+		E253D0DD266D61F10073AAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E253D0BE266D61EE0073AAB3 /* romanSum3 */;
+			targetProxy = E253D0DC266D61F10073AAB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E253D0E2266D61F10073AAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E253D0E3266D61F10073AAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E253D0E5266D61F10073AAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"romanSum3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = romanSum3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.romanSum3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E253D0E6266D61F10073AAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"romanSum3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = romanSum3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.romanSum3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E253D0E8266D61F10073AAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = romanSum3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.romanSum3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/romanSum3.app/romanSum3";
+			};
+			name = Debug;
+		};
+		E253D0E9266D61F10073AAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = romanSum3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.romanSum3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/romanSum3.app/romanSum3";
+			};
+			name = Release;
+		};
+		E253D0EB266D61F10073AAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = romanSum3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.romanSum3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = romanSum3;
+			};
+			name = Debug;
+		};
+		E253D0EC266D61F10073AAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = romanSum3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Luis.romanSum3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = romanSum3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E253D0BA266D61EE0073AAB3 /* Build configuration list for PBXProject "romanSum3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E253D0E2266D61F10073AAB3 /* Debug */,
+				E253D0E3266D61F10073AAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E253D0E4266D61F10073AAB3 /* Build configuration list for PBXNativeTarget "romanSum3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E253D0E5266D61F10073AAB3 /* Debug */,
+				E253D0E6266D61F10073AAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E253D0E7266D61F10073AAB3 /* Build configuration list for PBXNativeTarget "romanSum3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E253D0E8266D61F10073AAB3 /* Debug */,
+				E253D0E9266D61F10073AAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E253D0EA266D61F10073AAB3 /* Build configuration list for PBXNativeTarget "romanSum3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E253D0EB266D61F10073AAB3 /* Debug */,
+				E253D0EC266D61F10073AAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E253D0B7266D61EE0073AAB3 /* Project object */;
+}
