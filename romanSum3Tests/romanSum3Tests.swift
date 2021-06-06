@@ -10,24 +10,25 @@ import XCTest
 
 class romanSum3Tests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testEven(){
+        let roman = romanSum()
+        let result = roman.evenNumeral(roman: "XI")
+        XCTAssertEqual(11, result)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testOdd(){
+        let roman = romanSum()
+        let result = roman.oddNumeral(roman: "XII")
+        XCTAssertEqual(12, result)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testRoman(){
+        let roman = romanSum()
+        let result1 = roman.oddNumeral(roman: "XII")
+        let result2 = roman.evenNumeral(roman: "IX")
+        
+        let result = roman.toRoman(numeral: result1 + result2)
+        XCTAssertEqual("XXI", result)
     }
 
 }
